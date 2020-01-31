@@ -21,6 +21,6 @@ end
 
 
 def swap_elements(array)
-  array.tr(0,1,2)
+  array.tr('0,1,2','0,2,1')
   
 end
