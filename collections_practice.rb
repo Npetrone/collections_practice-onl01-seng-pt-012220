@@ -36,7 +36,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find{|w| w.is_a?(a)}
+  array.find(a)
 end
 
 
