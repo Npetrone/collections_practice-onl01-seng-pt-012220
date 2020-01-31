@@ -22,7 +22,7 @@ end
 
 def swap_elements(array)
   
-  swap_elements_from_to(["a", "b", "c"],2,1)
+  array.swap_elements_from_to(["a", "b", "c"],2,1)
   
 end
 
