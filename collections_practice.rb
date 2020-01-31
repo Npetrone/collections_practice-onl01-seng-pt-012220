@@ -17,5 +17,5 @@ end
 
 def sort_array_char_count
   array.sort do |w.length|
-end
+    
 end
