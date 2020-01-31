@@ -21,9 +21,7 @@ end
 
 
 def swap_elements(array)
-  
-  array.swap_elements_from_to(["a", "b", "c"],2,1)
-  
+  array[0], array[1], array[2] = array[0], array[2], array[1]
 end
 
 
