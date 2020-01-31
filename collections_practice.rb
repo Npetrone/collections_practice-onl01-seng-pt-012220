@@ -21,11 +21,11 @@ end
 
 
 def swap_elements(array)
-  
+  swap_elements_from_to(["a", "b", "c"],0,2)
+swap_elements_from_to(["a", "b", "c"],2,1)
   
 end
 
-swap_elements_from_to(["a", "b", "c"],0,2)
-swap_elements_from_to(["a", "b", "c"],2,1)
+
 
 array[0], array[1], array[2] = array[0], array[2], array[1]
