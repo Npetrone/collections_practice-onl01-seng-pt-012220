@@ -30,7 +30,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  
+  array.each do |item|
+    item[2] = "$"
 end
 
 def find_a(array)
